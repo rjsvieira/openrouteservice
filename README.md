@@ -16,8 +16,7 @@ In short, a machine with a working [docker installation](https://www.digitalocea
 ## 2 - Use case
 
 
-The use case is simple: Run openrouteservice for the GCC states region and find the location between 2 points on the map.
-The 2 points will be located in Salmiya, Kuwait.
+The use case is simple: Run openrouteservice for the GCC states and find the location between 2 points on the map - Both points will be located in Salmiya, Kuwait.
 
 
 ## 3 - Running with a custom map
