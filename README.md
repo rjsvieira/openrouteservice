@@ -58,6 +58,7 @@ docker compose up --build -d
 ```
 
 Give it a few minutes as the system builds the graph and loads all data into memory.
+
 ![Building](docs/graph_building.png)
 
 
