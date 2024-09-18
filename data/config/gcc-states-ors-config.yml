@@ -1,0 +1,8 @@
+##### Absolute minimum set of configurations & settings #####
+ors:
+  engine:
+    source_file: /home/ors/files/gcc-states-latest.osm.pbf
+    profiles:
+      car:
+        profile: driving-car
+        enabled: true
