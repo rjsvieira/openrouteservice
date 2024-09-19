@@ -1,0 +1,2 @@
+*.docker linguist-detectable=false
+*.rest linguist-detectable=false
