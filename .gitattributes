@@ -1,2 +1,19 @@
-*.docker linguist-detectable=false
-*.rest linguist-detectable=false
+# Ignore JavaScript, Python, etc.
+*.js linguist-vendored
+*.py linguist-vendored
+*.ts linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
+
+# Mark Docker-related files as "Docker"
+Dockerfile linguist-language=Dockerfile
+*.dockerignore linguist-language=Dockerfile
+
+# Mark specific REST-related files (JSON/YAML/OpenAPI specs) as "REST"
+*.yaml linguist-language=REST
+*.yml linguist-language=REST
+*.json linguist-language=REST
+
+# Optionally ignore test files or other non-essential code files
+tests/* linguist-vendored
+docs/* linguist-vendored
